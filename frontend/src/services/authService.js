@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api/auth";
+const API_URL = "team-task-manager-production-a0ee.up.railway.app";
 
 
 // LOGIN USER
