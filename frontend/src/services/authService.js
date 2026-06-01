@@ -1,7 +1,6 @@
 import axios from "axios";
 
-const API_URL = "team-task-manager-production-a0ee.up.railway.app";
-
+const API_URL = "https://team-task-manager-production-a0ee.up.railway.app/api/auth";
 
 // LOGIN USER
 export const loginUser = async (userData) => {
@@ -12,7 +11,6 @@ export const loginUser = async (userData) => {
 
   return response.data;
 };
-
 
 // REGISTER USER
 export const registerUser = async (userData) => {
